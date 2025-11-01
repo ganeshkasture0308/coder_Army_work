@@ -1,0 +1,11 @@
+/* for using class we use . and class_name */
+.first{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/* For using the id we use # and id_name */
+#second{
+    text-align: center;
+    background-color: rgb(222, 250, 15);
+}

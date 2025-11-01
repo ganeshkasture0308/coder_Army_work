@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>please fill out the below form to register:</p>
+    <hr>
+    <form>
+    <h2>Personal Details</h2>
+    <br><br>
+    <label for="firstname">First Name:</label>
+    <input type="text" name="firstname" id="firstname" required  placeholder="eg.Arjun">
+    <br><br>
+    <label for="surname">last Name:</label>
+    <input type="text" name="surname" id="surname" required  placeholder="eg.shinde">
+    <br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date"  name="dob" id="dob">
+    <br><br>
+    <h3>Gender:</h3>
+    
+    <label for="male">Male</label>  
+      <input type="radio" name="gender" id="male" value="male">
+      <br>
+
+      <label for="female">FeMale</label>  
+      <input type="radio" name="gender" id="female" value="female">
+      <br>
+
+      <label for="other">Other</label>  
+      <input type="radio" name="gender" id="other" value="other">
+      <br><br>
+      <label>upload your photo:</label>
+      <br>
+      <input type="file" name="file">
+      <hr>
+      <h2>Contact Information</h2>
+      <label for="email">Email  Address:</label>
+      <input type="email" name="email" id="email" placeholder="eg:you@gmail.com" required>
+      <br><br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone" placeholder="10 digit number" required>
+      <br><br>
+      <label for="mailingaddress">Mailing Address:</label>
+      <br>
+      <textarea name="address" id="address" rows="16" cols="30" placeholder="Street Address,City,State,Zip Code"></textarea>
+      <hr>
+      <h2>Academic Information</h2>
+      <br><br>
+      <label for="course">Choose Your Course:</label>
+      <select name="course" id="course">
+        <option value="" selected disabled>--- Choose a Course ---</option>
+        <option value="CSE" id="CSE">CSE</option>
+        <option value="ENTC" id="ENTC">ENTC</option>
+        <option value="Mech" id="Mech">Mech</option>
+      </select>
+      <br><br>
+      <label for="checkbox">Extracurricular Activities:</label>
+      <br>
+      <label for="sports">Sports:</label>
+      <input type="checkbox" name="subjects" id="sports" value="sports">
+      <br>
+      <label for="music">Music:</label>
+      <input type="checkbox" name="subjects" id="music" value="music">
+      <br>
+      <label for="Technology tech">Technology tech:</label>
+      <input type="checkbox" name="subjects" id="Technology tech" value="Technology tech">
+      <br>
+      <label for="volunteering">Volunteering:</label>
+      <input type="checkbox" name="volunteering" id="volunteering" value="volunteering">
+      <hr>
+      <h2>Create Your Account</h2>
+      <br>
+      <label for="pass">Create a password:</label>
+      <input type="password" name="pass" id="pass">
+      <br><br>
+      <label for="security">Security Question:</label>
+      <select name="security" id="security">
+        <option value="" selected disabled>--- What was your pet name? ---</option>
+        <option value="cat" id="cat">Rani</option>
+        <option value="dog" id="dog">Tiger</option>
+      </select>
+      <br><br>
+      <label for="securityans">Security Answer:</label>
+      <input type="text">
+      <br><br>
+      <label for="check">I agree to the terms and the conditions.</label>
+      <input type="checkbox" name="check" id="check">
+      <hr>
+      <button type="submit">Register</button>
+      <button type="reset">Clearform</button>
+    </form>
+
+
+
+</body>
+</html>
