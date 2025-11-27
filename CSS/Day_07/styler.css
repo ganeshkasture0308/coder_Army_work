@@ -1,0 +1,116 @@
+/*1.tag/element selector */
+/* h1{
+    background-color: pink;
+    font-size: 40px;
+}
+
+ul{
+    background-color: aqua;
+}
+
+/* 2.ID Selector(id base selection # based selection)*/
+/* in this selction process we can select which element we should want to format
+because we know id is unique. */
+/* #first{
+    background-color: blueviolet;
+}
+#second{
+    background-color: bisque;
+} */
+
+/* 3.Class Selector(Class based selection)*/
+/* .third{
+    background-color: blueviolet;
+}
+.forth{
+    background-color: aquamarine;
+} */
+
+/* Group selector(group base selection */
+/* h1,.forth,#first{
+    background-color: aquamarine;
+} */
+
+
+/* Colors */
+
+/* 1.RGB */
+/* h1{
+    background-color: rgb(64, 205, 205);
+} */
+
+/* 2.RGBA(rgba)a=means alpha or transparancy of the color */
+/* h2{
+    background-color: rgba(168, 126, 74,0.5);
+} */
+
+/*3.HSL(hue,saturation,lightness)  */
+/* p{
+    background-color: hsl(100, 50%, 35%);
+} */
+
+
+/* 4.HSLA(hue,saturation,lightness,alpha) */
+/* p2{
+    background-color:hsla(67,40%,60%,0.5)
+} */
+
+
+/* hexa decimal value */
+/* p1{
+    background-color: #7fffd4;
+} */
+
+
+/* Font: */
+
+h1{
+    font-size:80px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* em is Relative to parent element’s font-size */
+/* li{
+    font-size: 1em; 
+} */
+
+/* rem is Relative to root (html) font-size twice of root size */
+html{
+    font-size: 40px;
+}
+/* 2 * 40=80px */
+h2{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* vw(viewport Width */
+p{
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+/* vh(viewport hight) */
+p2{
+    font-size: 7vh;
+}
+
+/* % percentage- */
+li{
+    font-size: 50%;
+}
+
+
+p3{
+    font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:550;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+
