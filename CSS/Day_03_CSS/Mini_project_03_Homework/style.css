@@ -1,0 +1,33 @@
+#container{
+    width: 500px;
+    height: 300px;
+    margin:40px auto;
+    position: relative;
+    background-color: black;
+
+}
+
+.strip{
+    width: 100%;
+}
+
+.red {
+    height: 75px;
+    background-color: #ce1126;
+}
+
+.blue {
+    height: 150px;
+    background-color: #002868;
+    position: relative;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}

@@ -1,0 +1,40 @@
+/* 2.Relative */
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h2{
+    background-color: orange;
+    position: relative;
+    left: 50px;
+    /* bottom: 50px; */
+    /* right: 50px; */
+    /* top: 50px; */
+
+}
+
+/* 3.fixed */
+h3{
+    background-color: pink;
+    position: fixed;
+    top:0px;
+    left: 50px;
+
+}
+
+/* 4.Sticky */
+h4{
+    background-color: brown;
+    position: sticky;
+    top: 0px;
+}
+
+/* 5.absolute */
+p{
+    background-color: wheat;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    margin: 0px;
+    z-index:10 ;
+}
