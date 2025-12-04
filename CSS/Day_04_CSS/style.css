@@ -1,0 +1,64 @@
+.container{
+    background-color: wheat;
+    display: flex;
+    height: 500px;
+    flex-direction:row;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* justify content:main axis ke around kaam karta hai. */
+    /* main axis decide kun karega , aapka flex direction */
+    /* align-item work around corss axis*/
+
+    align-items: center;
+    /* align-items: end; */
+    /* align-items: start; */
+
+    justify-content: center;
+    /* justify-content:end; */
+    /* justify-content:start; */
+    /* justify-content:space-around; */
+    /* justify-content:space-between; */
+    /* justify-content:space-evenly; */
+
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    
+}
+
+.first{
+    background-color: orange;
+    /* flex-basis override the width  you have given and put his width  when flex direction is rows and 
+    if the flex direction is column flex-basis override the height.*/
+
+    /* flex-basis: 200px; */
+
+    /* flex-grow: 1; */
+}
+
+.second{
+    background-color: aqua;
+    /* flex-grow: 2; */
+    flex-shrink: 4;
+
+
+}
+
+.third{
+    background-color: blueviolet;
+    /* flex-grow: 3; */
+    /* align-self: flex-start; */
+    align-self: flex-end;
+
+}
+
+.fourth{
+    background-color: plum;
+}
