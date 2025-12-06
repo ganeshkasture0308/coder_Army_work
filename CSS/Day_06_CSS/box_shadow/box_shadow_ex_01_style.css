@@ -1,0 +1,19 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    /* box-shadow: 10px 10px aqua; */
+    /* box-shadow: 20px 20px 10px aqua; */
+    /* box-shadow: 0px 0px 0px 30px aqua; */
+
+    /* using inset the shadow is appear inside the element instead of outside. */
+    box-shadow: inset 10px 10px 5px red;
+}
+
+/* syantax without inset */
+
+/*box-shadow:offset-x  offset-y  blur  radius   spread-radius   color  */
+
+/* syntax with inset */
+
+/* box-shadow:inset offset-x offset-y blur radius spread-radius  color */

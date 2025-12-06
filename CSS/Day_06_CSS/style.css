@@ -1,0 +1,36 @@
+.container{
+    background-color: aqua;
+    height: 600px;
+    width: 600px;
+    font-size: 50px;
+
+}
+
+/* max-width concept */
+/* when the width goes 600px or less than 600px it color changes to blueviolet. */
+@media screen and (max-width:900px) {  
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: blueviolet;
+        font-size: 30px;
+    }
+    
+}
+
+/* min-width concept */
+/* when the width goes 800px or more  than 800px its color changes to orange. */
+/* @media screen and (min-width:800px){     
+    .container{
+        background-color: orangered;
+        font-size:60px ;
+    }
+} */
+
+@media screen and (max-width:600px) {
+    .container{
+        background-color: blanchedalmond;
+        font-size:35px;
+    }
+}
+

@@ -1,0 +1,21 @@
+/* Mobile default */
+.box {
+    width: 100%;
+    background: lightblue;
+}
+
+/* Tablet & Desktop */
+@media screen and (min-width: 768px) {
+    .box {
+        width: 50%;
+        background: orange;
+    }
+}
+
+/* Desktop large */
+@media screen and (min-width: 1024px) {
+    .box {
+        width: 30%;
+        background: green;
+    }
+}

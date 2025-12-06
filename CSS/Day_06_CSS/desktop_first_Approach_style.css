@@ -1,0 +1,24 @@
+/* Desktop default */
+.box {
+    width: 30%;
+    background: green;
+    height: 300px;
+}
+
+/* Tablet & Mobile */
+@media screen and (max-width: 1024px) {
+    .box {
+        width: 50%;
+        background: orange;
+        height: 300px;
+    }
+}
+
+/* Mobile small */
+@media screen and (max-width: 600px) {
+    .box {
+        width: 100%;
+        background: lightblue;
+        height: 300px;
+    }
+}
