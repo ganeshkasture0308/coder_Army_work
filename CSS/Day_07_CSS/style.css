@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 0px;
+    background-color: black;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+
+.box{
+    height: 150px;
+    width: 250px;
+    background-color: antiquewhite;
+    /* we want to give animation to this box so first give the name too this box */
+    animation-name: animating;
+    /* animation-duration defines duration of animation. */
+    animation-duration: 3s;
+    position: absolute;
+    border-radius: 10px;
+    /*animation-irteration-count defines how many times the animation is repeating. */
+    animation-iteration-count:3;
+    /* animation-iteration-count:infinite */
+
+    /* to control the speed of the animation we use animation-time-functon */
+    /* The animation-timing-function specifies the speed curve of an animation. */
+    animation-timing-function:linear ;
+    /* different valuses of animation-timing-function: */
+    /* animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-timing-function: ease-in-out; */
+
+    /* The animation-direction property defines whether an animation should be played forward, backward or in alternate cycles. */
+    animation-direction: alternate;
+    /* different values of animation-duration are as follows: */
+    /* animation-direction: alternate-reverse;
+    animation-direction: reverse;
+    animation-direction: normal; */
+
+    /* The animation-delay property specifies a delay for the start of an animation.
+
+The animation-delay value is defined in seconds (s) or milliseconds (ms). */
+    animation-delay: 2s;
+
+    /*animation-fill-mode decides **what style the element should keep before an animation starts and after it ends`.  */
+    /* animation-fill-mode: forwards; */
+
+
+
+} 
+
+@keyframes animating {
+    /* initial postion */
+    from{
+        background-color: antiquewhite;
+        top: 10px;
+        left: 10px;
+    }
+    /* ending position */
+    to{
+        background-color: blueviolet;
+        top: 10px;
+        left: 1000px;
+    }
+}

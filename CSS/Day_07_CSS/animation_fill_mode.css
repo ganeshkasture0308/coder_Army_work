@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin:0px;
+    height: 0px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+}
+
+.box{
+    height: 150px;
+    width: 250px;
+    background-color:red;
+    border-radius: 10px;
+    animation-name:filling;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    /* animation-direction:alternate; */
+    animation-timing-function:normal;
+    position: absolute;
+    /* animation-fill-mode decides **what style the element should keep before an animation starts and after it ends` */
+    animation-fill-mode:backwards;
+    /* animation-fill-mode: forwards; */
+}   
+
+/* @keyframes filling {
+    from{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+
+    }
+    to{
+        background-color: blueviolet;
+        top: 10px;
+        left: 1000px;
+    }
+    
+} */
+
+
+/* if you want to move the box from all sides use the % for it like bellow: */
+
+@keyframes filling {
+    0%{
+        top: 10px;
+        left: 10px;
+        background-color: orange;
+
+    }
+    25%{
+        top: 10px;
+        left: 1000px;
+        background-color: blueviolet;
+    }
+    50%{
+        top: 500px;
+        left: 1000px;
+        background-color: greenyellow;
+    }
+
+    75%{
+        background-color: aqua;
+        top: 500px;
+        left: 10px;
+
+
+    }
+    100%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+    }
+    
+}
+
