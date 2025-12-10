@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+/* parent container */
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* perspective is used in CSS to create a 3D effect by giving depth to elements.
+It makes elements look closer or farther from the viewer when they are rotated in 3D */
+    perspective: 800px;
+}
+
+/* child  */
+.box{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    transition: all 3s ;
+     /* transform: skewX(-20deg); */
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    
+
+
+}
+
+.box:hover{
+    /* Moves element forward or backward in 3D space */
+    /* transform: translateZ(50px);   towards user */
+    /* transform: translatez(200px); */
+    transform: rotatex(90deg);
+
+}

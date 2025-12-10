@@ -24,8 +24,9 @@
     animation-timing-function:normal;
     position: absolute;
     /* animation-fill-mode decides **what style the element should keep before an animation starts and after it ends` */
-    animation-fill-mode:backwards;
+    /* animation-fill-mode:backwards; */
     /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: both; */
 }   
 
 /* @keyframes filling {
@@ -72,7 +73,7 @@
 
     }
     100%{
-        background-color: orange;
+        background-color: rgb(255, 0, 179);
         top: 10px;
         left: 10px;
     }

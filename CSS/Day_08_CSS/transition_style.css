@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color:orange;
+    height: 150px;
+    width: 150px;
+    /* transition-property contain attributes like height ,width,background-color and a "all" which contain all these three property together  */
+    /* transition-property: background-color; */
+    /* transition-property:height; */
+    /* transition-property:width; */
+    /* transition-property: all; */
+    /* transition-duration: 3s; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay:2s ; */
+
+    /* shorthand property of transition is as follow:
+        transition:all 3s ease-in 2s */
+
+    transition: all 3s ease-in 2s;
+
+}
+
+.box:hover{
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+
+}

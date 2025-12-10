@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+</head>
+<body>
+    <h1 style="text-align: center;">📙Add New Book📚</h1><hr><br>
+    <div style="text-align: center;">
+        <ul  type="none">
+            <li><a href="home.html">Home Page</a></li>
+            <li><a href="add-book.html">Add Books</a></li>
+            <li><a href="issue-book.html">Issue Books</a></li>
+            <li><a href="return-book.html">Return Books</a></li>
+            <li><a href="contact.html">Contact Page</a></li> 
+        </ul><br><br>
+        <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/v_collection_png/512x512/shadow/books_blue_add.png" height="200px" width="300px" alt="addbook"><br><br>
+        <label for="bookname">Book Name:</label>
+        <input type="text" name="bookname" id="bookname"><br><br>
+        <label for="authorname">Author Name:</label>
+        <input type="text" name="authorname" id="authorname"><br><br>
+        <label for="publication">publication:</label>
+        <input type="text" name="publication" id="publication"><br><br>
+        <label for="bookcategory">Book Category:</label>
+        <select name="bookcategory" id="bookcategory">
+            <option value="" selected disabled>Choose the book</option>
+            <option value="Novel">Novel</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Romance">Romance</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Horror">Horror</option>
+            <option value="Autobiography">Autobiography</option>
+        </select><br><br>
+        <button type="submit">submit</button>
+        &nbsp;&nbsp;&nbsp;
+        <button type="reset">reset</button>
+    </div>
+</body>
+</html>

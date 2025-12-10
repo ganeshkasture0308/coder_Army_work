@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.box{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: rgb(255, 0, 13);
+
+}
+
+/* notes:
+The :hover selector is used to apply a style when the user moves the mouse pointer over an element.
+without using the transition the color changes suddenly. */

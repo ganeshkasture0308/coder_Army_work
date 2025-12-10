@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.box{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    /* transition: all 3s ; */
+     transform: skewX(-20deg);
+    cursor: pointer;
+
+
+}
+
+.box:hover{
+    /* background-color: blueviolet;
+    height: 300px;
+    width: 300px; */
+
+    /* Scales (resizes) an element in both X and Y directions. */
+    /* transform: scale(2); */
+
+    /*Scales horizontally (width) only  */
+    /* transform:  scaleX(2); */
+
+    /* Scales vertically (height) only */
+    transform: scaleY(2);
+
+
+    /* to change the position we use transform:translate(x,y) */
+    /* transform: translate(50px, 20px); */
+
+    /* Moves the element horizontally only */
+    /* transform: translatex(400px); */
+
+    /* Moves the element vertically only */
+    /* transform: translateY(30px); */
+
+    /* Moves element forward or backward in 3D space. */
+        /* transform: translateZ(50px) rotate(40px); */
+
+    /* to rotate an element clockwise or counter-clockwise. */
+    /* transform: rotate(); */
+
+    /* ✔ Clockwise rotation */
+    /* transform: rotate(45deg); */
+
+    /* Counter-clockwise rotation */
+    /* transform: rotate(-30deg); */
+
+    /* full turn rotation */
+    /* transform: rotate(1turn); */
+
+    /* Tilts the element in X and Y directions together. */
+    /* transform: skew(20deg, 10deg); */
+
+    /* Tilts the element horizontally only. */
+    /* transform: skewX(-20deg); */
+
+    /* Tilts the element vertically only */
+    /* transform: skewY(25deg); */
+
+
+
+
+
+
+
+
+
+}
