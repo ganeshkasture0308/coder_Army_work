@@ -1,0 +1,96 @@
+/* -------------------------------
+   FLEX PARENT PROPERTIES
+-------------------------------- */
+
+/* Flex Container */
+.flex-container {
+    display: flex;       /* Enables Flexbox */
+
+    /* PARENT PROPERTIES (All values shown) */
+
+    /* 1. flex-direction */
+    /* row | row-reverse | column | column-reverse */
+    flex-direction: row;
+
+    /* 2. flex-wrap */
+    /* nowrap | wrap | wrap-reverse */
+    flex-wrap: wrap;
+
+    /* 3. flex-flow (shorthand = direction + wrap) */
+    /* flex-flow: row wrap; */
+
+    /* 4. justify-content */
+    /* flex-start | flex-end | center | space-between | space-around | space-evenly */
+    justify-content: space-between;
+
+    /* 5. align-items */
+    /* stretch | flex-start | flex-end | center | baseline */
+    align-items: center;
+
+    /* 6. align-content (works only with multiple rows) */
+    /* flex-start | flex-end | center | space-between | space-around | stretch */
+    align-content: stretch;
+
+    /* Extra container styling */
+    width: 90%;
+    height: 350px;
+    border: 3px solid #000;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+
+/* -------------------------------
+   FLEX CHILD PROPERTIES
+-------------------------------- */
+
+.item {
+    width: 120px;
+    height: 120px;
+    background-color: orange;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    /* CHILD PROPERTIES (All Values) */
+
+    /* 1. order */
+    /* Example: order: 2; */
+}
+
+.item1 {
+    order: 1;            /* Appears third */
+    flex-grow: 0;        /* Grows faster */
+    flex-shrink: 1;
+    flex-basis: 100px;
+    align-self: flex-start;
+}
+
+.item2 {
+    order: 2;            /* Appears second */
+    flex-grow: 0;        /* Grows more than item1 */
+    flex-shrink: 2;
+    flex-basis: 100px;
+    align-self: center;
+}
+
+.item3 {
+    order: 3;            /* Appears first */
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 200px;
+
+    /* align-self overrides align-items */
+    /* flex-start | flex-end | center | baseline | stretch */
+    align-self: flex-end;
+}
+
+/* flex shorthand = grow shrink basis */
+/* Example: flex: 1 1 150px; */
+

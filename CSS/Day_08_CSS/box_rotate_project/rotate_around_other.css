@@ -1,39 +1,37 @@
-*{
-    padding: 0px;
-    margin:0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.container{
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box{
-    height: 150px;
-    width: 150px;
-    background-color:red;
-    animation-name: moving;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    border-radius:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    color: white;
-
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  animation-name: moving;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
 }
 @keyframes moving {
-    from{
-        transform: rotate(0deg) translateX(250px) rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg) translateX(250px) rotate(-360deg);
-    }
-    
+  from {
+    transform: rotate(0deg) translateX(250px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(250px) rotate(-360deg);
+  }
 }

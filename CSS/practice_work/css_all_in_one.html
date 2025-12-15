@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Complete Example</title>
+
+    <!-- -------------------- INTERNAL CSS -------------------- -->
+    <style>
+        /* Element Selector */
+        h2 {
+            color: blue;
+        }
+
+        /* Class Selector */
+        .class-example {
+            color: green;
+            font-weight: bold;
+        }
+
+        /* ID Selector */
+        #id-example {
+            color: purple;
+            font-style: italic;
+        }
+
+        /* Group Selector */
+        h3, p {
+            color: brown;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            border: 2px solid blue;
+            padding: 5px;
+        }
+
+        /* Color Examples */
+        .rgb {
+            color: rgb(255, 0, 0); /* Red */
+        }
+
+        .rgba {
+            color: rgba(0, 128, 0, 0.7); /* Transparent green */
+        }
+
+        .hex {
+            color: #ff5733; /* Orange-red */
+        }
+
+        .hsl {
+            color: hsl(200, 100%, 40%); /* Blue shade */
+        }
+
+        .hsla {
+            color: hsla(300, 60%, 50%, 0.7); /* Pinkish purple */
+        }
+
+        /* Font Examples */
+        .font-family-example {
+            font-family: "Times New Roman", serif;
+        }
+
+        .font-weight-example {
+            font-weight: 900;
+        }
+
+        .font-style-example {
+            font-style: oblique;
+        }
+    </style>
+
+    <!-- -------------------- EXTERNAL CSS (Example Only) --------------------
+    <link rel="stylesheet" href="styles.css">
+    ---------------------------------------------------------------------- -->
+
+</head>
+<body>
+
+    <h1 style="color: red;">Inline CSS Example (This is Inline CSS)</h1>
+    <!-- Inline CSS applied directly inside the tag -->
+
+    <h2>Internal CSS Example (This is Internal CSS)</h2>
+
+    <h3>CSS Selector Examples</h3>
+
+    <!-- Element selector affects all <p> tags through group selector -->
+    <p>This is affected by the group selector (h3, p)</p>
+
+    <!-- Class Selector -->
+    <p class="class-example">This is Class Selector Example</p>
+
+    <!-- ID Selector -->
+    <p id="id-example">This is ID Selector Example</p>
+
+    <!-- Universal selector is applied globally -->
+
+    <!-- Attribute Selector -->
+    <label>Enter Name:</label>
+    <input type="text" placeholder="This is Attribute Selector effect">
+
+    <hr>
+
+    <h3>Color Value Examples</h3>
+
+    <p class="rgb">This text uses RGB</p>
+    <p class="rgba">This text uses RGBA (with opacity)</p>
+    <p class="hex">This text uses HEX color</p>
+    <p class="hsl">This text uses HSL color</p>
+    <p class="hsla">This text uses HSLA color (opacity)</p>
+
+    <hr>
+
+    <h3>Font Property Examples</h3>
+
+    <p class="font-family-example">This text uses font-family: Times New Roman</p>
+
+    <p class="font-weight-example">This text uses font-weight: 900 (extra bold)</p>
+
+    <p class="font-style-example">This text uses font-style: oblique</p>
+
+</body>
+</html>

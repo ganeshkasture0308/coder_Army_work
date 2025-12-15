@@ -16,6 +16,7 @@
     background-color:orange;
     height: 150px;
     width: 150px;
+    cursor: pointer;
     /* transition-property contain attributes like height ,width,background-color and a "all" which contain all these three property together  */
     /* transition-property: background-color; */
     /* transition-property:height; */
@@ -31,7 +32,6 @@
 
     /* shorthand property of transition is as follow:
         transition:all 3s ease-in 2s */
-
     transition: all 3s ease-in 2s;
 
 }

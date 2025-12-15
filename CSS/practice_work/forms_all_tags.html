@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Form Example</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form action="#" method="POST">
+
+        <!-- Text Input -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your name">
+        <br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <label>Languages Known:</label><br>
+        <input type="checkbox" id="english" name="language" value="English">
+        <label for="english">English</label><br>
+
+        <input type="checkbox" id="hindi" name="language" value="Hindi">
+        <label for="hindi">Hindi</label><br>
+
+        <input type="checkbox" id="marathi" name="language" value="Marathi">
+        <label for="marathi">Marathi</label>
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write something..."></textarea>
+        <br><br>
+
+        <!-- Dropdown (Select) -->
+        <label for="city">Select Your City:</label>
+        <select id="city" name="city">
+            <option value="">--Choose--</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Nagpur">Nagpur</option>
+        </select>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Form</button>
+
+    </form>
+
+</body>
+</html>
