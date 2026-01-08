@@ -1,46 +1,48 @@
 /* Styling using ID */
 #header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 #footer {
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    margin-top: 20px;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Styling using class */
 .navbar {
-    background-color: lightgray;
-    padding: 10px;
-    text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
 }
 
 .navbar a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  
 }
 
 /* Content section */
 .content {
-    padding: 20px;
-    background-color: #f5f5f5;
-    margin: 20px;
-    border-radius: 8px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin: 20px;
+  border-radius: 8px;
 }
 
 /* Same class for multiple divs */
 .box {
-    background-color: #ffeeba;
-    border: 1px solid #f0ad4e;
-    padding: 15px;
-    margin: 10px 20px;
-    border-radius: 5px;
+  background-color: #ffeeba;
+  border: 1px solid #f0ad4e;
+  padding: 15px;
+  margin: 10px 20px;
+  border-radius: 5px;
+  
 }

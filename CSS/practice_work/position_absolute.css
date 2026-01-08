@@ -14,3 +14,10 @@
     top: 50px;    /* distance from PARENT top */
     left: 70px;   /* distance from PARENT left */
 }
+
+p{
+    color: blueviolet;
+    font-size: x-large;
+
+}
+
