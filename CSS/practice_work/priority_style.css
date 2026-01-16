@@ -1,0 +1,112 @@
+/* ================= CASCADE & SPECIFICITY ================= */
+
+/* Element selector */
+p {
+    color: blue;
+}
+
+/* Class selector */
+.priority {
+    color: brown ;
+}
+
+/* ID selector */
+#priority {
+    color: teal;
+}
+
+/* !important example */
+.important {
+    color: black !important;
+}
+
+/* ================= POSITIONS ================= */
+
+.box {
+    width: 200px;
+    height: 60px;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Static */
+.static {
+    position: static;
+    background: gray;
+}
+
+/* Relative */
+.relative {
+    position: relative;
+    background: steelblue;
+    /* top: 40px; */
+    /* left:50px; */
+}
+
+/* Absolute */
+.absolute {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    background: crimson;
+    width: 120px;
+    height: 50px;
+}
+
+/* Fixed */
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: darkgreen;
+    z-index: 100;
+}
+
+/* Sticky */
+.sticky {
+    position: sticky;
+    top:0;
+    background: darkorange;
+}
+
+/* Space for scrolling */
+.spacer {
+    height: 800px;
+}
+
+/* ================= Z-INDEX ================= */
+
+.z-container{
+    position: relative;
+    height: 200px;
+}
+
+.z-box{
+    position:absolute;
+    height: 120px;
+    width: 120px;
+    color: white;
+}
+
+.z1{
+    top: 10px;
+    left: 10px;
+    background: red;
+    z-index: 1;
+}
+
+.z2{
+    top: 20px;
+    left: 20px;
+    background:blue;
+    z-index: 2;
+}
+
+.z3{
+    top: 30px;
+    left: 30px;
+    background:orange;
+    z-index: 3;
+}

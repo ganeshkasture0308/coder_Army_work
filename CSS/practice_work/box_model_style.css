@@ -1,0 +1,56 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Block-level element */
+.block-element {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 10px 0;
+  border: 2px solid blue;
+}
+
+/* Inline-level element */
+.inline-element {
+  background-color: lightgreen;
+  padding: 5px;
+  border: 1px solid green;
+}
+
+/* Block converted to inline */
+.block-to-inline {
+  display: inline;
+  background-color: peachpuff;
+  padding: 10px;
+  border: 2px solid orange;
+}
+
+/* Inline converted to block */
+.inline-to-block {
+  display: block;
+  background-color: lavender;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid purple;
+}
+
+/* Content-box example */
+.content-box {
+  width: 300px;
+  padding: 70px;
+  border: 40px solid red;
+  box-sizing: content-box;
+  background-color: #ffe6e6;
+  margin-bottom: 20px;
+}
+
+/* Border-box example */
+.border-box {
+  width: 400px;
+  padding: 50px;
+  border: 40px solid green;
+  box-sizing: border-box;
+  background-color: #e6ffe6;
+}

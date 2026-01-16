@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Cascade, Specificity & Position Demo</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="priority_style.css">
+
+    <!-- Internal CSS (higher priority than external) -->
+    <style>
+        /* Internal style */
+        p {
+            color: orange;
+        }
+
+        .priority {
+            color: green;
+        }
+
+        #priority {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 title="This is a tooltip using title attribute">
+        CSS Cascade, Specificity & Position Example
+    </h1>
+
+    <!-- ================= CASCADE & SPECIFICITY ================= -->
+
+    <h2>1. Cascade & Specificity</h2>
+
+    <p>This is element selector (external vs internal)</p>
+
+    <p class="priority">
+        Class selector (wins over element)
+    </p>
+
+    <p id="priority">
+        ID selector (wins over class)
+    </p>
+
+    <p id="priority" class="priority" style="color:red;">
+        Inline style (wins over ID & class)
+    </p>
+
+    <p class="important">
+        !important (wins over everything)
+    </p>
+
+    <hr>
+
+    <!-- ================= POSITIONS ================= -->
+
+    <h2>2. CSS Positions</h2>
+
+    <div class="box static">Static (default)</div>
+
+    <div class="box relative">
+        Relative
+        <div class="box absolute">Absolute</div>
+    </div>
+
+    <div class="box fixed">Fixed</div>
+
+    <div class="box sticky">Sticky (scroll)</div>
+
+    <div class="spacer"></div>
+
+    <!-- ================= Z-INDEX ================= -->
+
+    <h2>3. Z-Index</h2>
+
+    <div class="z-container">
+        <div class="z-box z1">z-index: 1</div>
+        <div class="z-box z2">z-index: 2</div>
+        <div class="z-box z3">z-index: 3</div>
+    </div>
+
+</body>
+</html>
